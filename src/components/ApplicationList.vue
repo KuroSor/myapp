@@ -33,7 +33,7 @@
       <Application></Application>
       <Application></Application>
       <Application></Application>
-      <Application></Application>   <Application></Application>   <Application></Application>   <Application></Application>   <Application></Application>   <Application></Application>
+      <Application></Application>
     </div>
   </div>
 </template>
