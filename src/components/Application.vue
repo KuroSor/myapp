@@ -3,7 +3,7 @@
 .CurrentApplicationform {
   border: 1px solid #d9d9d9;
   justify-self: flex-start;
-  min-width:410px;
+  min-width: 410px;
   max-width: 410px;
   min-height: 102px;
   max-height: 302px;
@@ -46,7 +46,7 @@
   font-size: 35px;
 }
 
-.AAA{
+.AAA {
   border: 0px solid #d9d9d9;
   background-color: #f2f3fc;
   border-radius: 51px;
@@ -54,9 +54,11 @@
 </style>
 
 <template>
-  <form class="CurrentApplicationform">
+  <form class="CurrentApplicationform"  v-for="HSApp in HeaderShortApp" :key="HSApp.id">
     <div class="ContentBTNStrelka">
-    <button class = "AAA"><img src="@/assets/Group36.svg" alt = "dddd" width="50px" height="50px"></button>
+      <button class="AAA">
+        <img src="@/assets/Group36.svg" alt="dddd" width="50px" height="50px" />
+      </button>
     </div>
 
     <div class="ContentStatusPng">
@@ -73,11 +75,14 @@
     </div>
 
     <div class="HeaderApplication">
-      <h1><span class="HeaderForStatus">Заголовок</span></h1>
+      <h1>
+        <span class="HeaderForStatus">{{ HSApp.Header }}</span>
+      </h1>
     </div>
   </form>
 </template>
 
 <script setup>
+// import { ref } from "vue";
 
 </script>

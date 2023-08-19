@@ -25,7 +25,7 @@
 // import AboutCompany from "@/Pages/AboutCompany.vue";
 // import OurCase from "@/Pages/OurCase.vue";
 // import OurContact from "@/Pages/OurContact.vue";
-import NewApplication from '@/Pages/NewApplication.vue';
+//import NewApplication from '@/Pages/NewApplication.vue';
 import PersonalArea from '@/Pages/PersonalArea.vue';
 //import RegistrationAuthorization from '@/Pages/RegistrationAuthorization.vue';
 </script>

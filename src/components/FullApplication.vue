@@ -3,7 +3,7 @@
 .CurrentApplicationform {
   border: 1px solid #d9d9d9;
   justify-self: flex-start;
-  width: 410px;
+  width: 810px;
   height: 102px;
   border-radius: 4px 35px 35px 4px;
   display: grid;

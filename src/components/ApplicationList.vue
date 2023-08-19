@@ -30,28 +30,10 @@
       <Application></Application>
       <Application></Application>
       <Application></Application>
-      <Application></Application>
-      <Application></Application>
-      <Application></Application>
-      <Application></Application>
     </div>
   </div>
 </template>
 
 <script setup>
 import Application from "./Application.vue";
-// import { ref } from "vue";
-
-// const ContentsLichKab = ref([
-//   {
-//     name: '',
-//     number: '',
-//     E_mail: '',
-//     companyName: '',
-//     HeaderApp: '',
-//     ContentApp: '',
-//   },
-// ]);
-
-// const Posts = ref([{ Header: "", Content: "" }]);
 </script>
