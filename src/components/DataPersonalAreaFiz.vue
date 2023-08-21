@@ -208,14 +208,14 @@
           </div>
 
           <div class="inputinLichKab" id="FourthInputLichKab">
-            <div class="textKabinetLich"><p>Что-то ещё</p></div>
+            <div class="textKabinetLich"><p>Номер</p></div>
             <div>
               <input type="text" placeholder="Ввод" class="inputLichnogioKab" />
             </div>
           </div>
 
           <div class="inputinLichKab" id="FifthInputLichKab">
-            <div class="textKabinetLich"><p>Что-то ещё</p></div>
+            <div class="textKabinetLich"><p>Возраст</p></div>
             <div>
               <input type="text" placeholder="Ввод" class="inputLichnogioKab" />
             </div>
@@ -229,4 +229,9 @@
     </form>
 </template>
 
-<script setup></script>
+<script setup>
+// import {ref} from 'vue';
+// const PersonalArea = ref([
+
+// ]);
+</script>

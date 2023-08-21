@@ -3,7 +3,7 @@
 </style>
 <style>
 #MainCase {
-  height: 1000px;
+  height: 923px;
   background-color: #f2f3fc;
   display: grid;
   grid-template-areas:

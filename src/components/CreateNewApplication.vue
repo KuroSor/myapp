@@ -248,13 +248,30 @@
           </label>
         </div>
         <div id="firstinput">
-          <input placeholder="ФИО" class="inputs" type="text" />
+          <input
+            placeholder="ФИО"
+            class="inputs"
+            type="text"
+            maxlength="60"
+            v-model="$store.state.fsl"
+          />
         </div>
         <div id="secondinput">
-          <input placeholder="Телефон" class="inputs2" type="tel" />
+          <input
+            placeholder="Телефон"
+            class="inputs2"
+            type="tel"
+            maxlength="24"
+            v-model="$store.state.number"
+          />
         </div>
         <div id="thirdtinput">
-          <input placeholder="E-mail" class="inputs2" type="text" />
+          <input
+            placeholder="E-mail"
+            class="inputs2"
+            type="text"
+            v-model="$store.state.e_mail"
+          />
         </div>
 
         <div id="fourthinput">
@@ -262,6 +279,7 @@
             placeholder="Названия организации"
             class="inputs"
             type="text"
+            v-model="$store.state.namecompany"
           />
         </div>
         <div id="fifthinput">
@@ -269,10 +287,16 @@
             placeholder="Заголовок обращения"
             class="inputTextHead"
             type="text"
+            maxlength="22"
+            v-model="$store.state.headerapp"
           />
         </div>
         <div id="sixthinput">
-          <textarea placeholder="Текст обращения" class="inputText"></textarea>
+          <textarea
+            placeholder="Текст обращения"
+            class="inputText"
+            v-model="$store.state.contentapp"
+          ></textarea>
         </div>
 
         <div id="Galochki">
@@ -309,4 +333,5 @@
 </template>
 
 <script setup>
+
 </script>

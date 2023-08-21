@@ -5,7 +5,7 @@
 .Uslugi {
   margin: 0px;
   padding: 0px;
-  height: 1000px;
+  height: 923px;
   background-color: #f2f3fc;
   display: grid;
 

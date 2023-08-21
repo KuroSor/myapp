@@ -71,21 +71,21 @@
   <div id="U-Header">
     <form>
       <div class="U-HeaderLogo">
-        <button hidden id="BtnLogoHead"></button>
+        <button hidden id="BtnLogoHead" @click="$router.push('/')"></button>
         <label for="BtnLogoHead">
           <img src="@\assets\Logo.svg" alt="Логотип компании" />
         </label>
       </div>
     </form>
     <div>
-      <Button class="U-HeaderBtn">Услуги</Button>
-      <Button class="U-HeaderBtn">О компании</Button>
-      <Button class="U-HeaderBtn">Кейсы</Button>
-      <Button class="U-HeaderBtn">Контакты</Button>
+      <Button class="U-HeaderBtn" @click="$router.push('/OurServices')">Услуги</Button>
+      <Button class="U-HeaderBtn" @click="$router.push('/AboutCompany')">О компании</Button>
+      <Button class="U-HeaderBtn" @click="$router.push('/OurCase')">Кейсы</Button>
+      <Button class="U-HeaderBtn" @click="$router.push('/OurContact')">Контакты</Button>
     </div>
     <div>
-      <Button class="PersonalAreaBtn">Личный кабинет</Button>
-      <Button class="NewApplicationBtn">Связаться с нами</Button>
+      <Button class="PersonalAreaBtn" @click="$router.push('/PersonalArea')">Личный кабинет</Button>
+      <Button class="NewApplicationBtn" @click="$router.push('/NewApplication')">Связаться с нами</Button>
     </div>
   </div>
 </template>

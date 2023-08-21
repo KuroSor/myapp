@@ -326,9 +326,6 @@
 </style>
 
 <template>
-  <!-- Заголовок -->
-  <Header></Header>
-
   <!-- Форма -->
   <div class="contForm">
     <form class="formsforLichKab">
@@ -407,6 +404,5 @@
 </template>
 
 <script setup>
-import Header from "@/components/U-Header.vue";
 import Footer from "@/components/U-Footer.vue";
 </script>

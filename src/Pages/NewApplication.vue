@@ -3,8 +3,6 @@
 </style>
 
 <template>
-  <!-- Заголовок -->
-  <Header></Header>
   <!-- Форма -->
   <CreateAppForm></CreateAppForm>
   <!-- Футер -->
@@ -12,8 +10,6 @@
 </template>
 
 <script setup>
-import Header from "@/components/U-Header.vue";
 import Footer from "@/components/U-Footer.vue";
 import CreateAppForm from '@/components/CreateNewApplication.vue'
-
 </script>

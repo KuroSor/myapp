@@ -2,17 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 .ContentPersonalArea {
+  height: 923px;
   display: grid;
   grid-template-areas:
     "PAHeader PAHeader"
     "PAData PRAppList"
     "PAFooter PAFooter";
   grid-template-columns: 0.44fr 1fr;
-  grid-template-rows: 90px;
-}
-
-.PersonalAreaHeader {
-  grid-area: PAHeader;
+  grid-template-rows: 80px;
 }
 
 .PersonalAreaData {
@@ -30,11 +27,6 @@
 
 <template>
   <div class="ContentPersonalArea">
-    <!-- Заголовок -->
-    <div class="PersonalAreaHeader">
-      <Header></Header>
-    </div>
-
     <!-- Личный кабинет -->
     <div class="PersonalAreaData">
       <DataPersonalFiz></DataPersonalFiz>
@@ -53,7 +45,6 @@
 </template>
 
 <script setup>
-import Header from "@/components/U-Header.vue";
 import Footer from "@/components/U-Footer.vue";
 import DataPersonalFiz from "@/components/DataPersonalAreaFiz.vue";
 import AppList from "@/components/ApplicationList.vue";

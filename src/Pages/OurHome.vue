@@ -24,8 +24,6 @@
 </style>
 
 <template>
-  <!-- Шапка -->
-  <Header></Header>
   <!-- кружочки) -->
   <div id="MainBody">
     <img src="@\assets\Ellipse10.svg" alt="Шарик 1" class="sharik" />
@@ -33,7 +31,5 @@
     <img src="@\assets\Ellipse9.svg" alt="Шарик 2" class="sharik" />
   </div>
 </template>
-
 <script setup>
-import Header from '@/components/U-Header.vue'
 </script>

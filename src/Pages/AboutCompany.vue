@@ -3,7 +3,7 @@
 </style>
 <style>
 #Maincompany {
-  height: 1000px;
+  height: 923px;
   display: flex;
   justify-content: center;
   align-items: center;

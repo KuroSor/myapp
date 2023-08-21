@@ -54,7 +54,7 @@
 </style>
 
 <template>
-  <form class="CurrentApplicationform"  v-for="HSApp in HeaderShortApp" :key="HSApp.id">
+  <form class="CurrentApplicationform">
     <div class="ContentBTNStrelka">
       <button class="AAA">
         <img src="@/assets/Group36.svg" alt="dddd" width="50px" height="50px" />
@@ -76,7 +76,7 @@
 
     <div class="HeaderApplication">
       <h1>
-        <span class="HeaderForStatus">{{ HSApp.Header }}</span>
+        <span class="HeaderForStatus">{{  }}</span>
       </h1>
     </div>
   </form>
