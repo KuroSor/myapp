@@ -5,6 +5,9 @@
 <template>
   <!-- Форма -->
   <CreateAppForm></CreateAppForm>
+  <CreateAppForm></CreateAppForm>
+  <CreateAppForm></CreateAppForm>
+
   <!-- Футер -->
   <Footer></Footer>
 </template>

@@ -6,7 +6,9 @@ export const AppList = {
     }),
 
     getters:{
-
+        newapp(state){
+            return state.headerapp;
+        }
     },
 
     mutations:{

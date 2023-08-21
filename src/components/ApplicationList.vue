@@ -76,41 +76,15 @@
     </div>
 
     <div class="Application">
-      <form class="CurrentApplicationform">
-        <div class="ContentBTNStrelka">
-          <button class="AAA">
-            <img
-              src="@/assets/Group36.svg"
-              alt="dddd"
-              width="50px"
-              height="50px"
-            />
-          </button>
-        </div>
-
-        <div class="ContentStatusPng">
-          <span class="StatusSpanWaitPng">
-            <img
-              src="@/assets/Ellipse2.svg"
-              alt="StatusPNG"
-              width="12px"
-              height="12px"
-            />
-          </span>
-          <span class="StatusSpan">Статус:</span>
-          <span class="StatusSpan">В ожидании</span>
-        </div>
-
-        <div class="HeaderApplication">
-          <h1>
-            <span class="HeaderForStatus">{{ fff }}</span>
-          </h1>
-        </div>
-      </form>
+      <Application></Application>
     </div>
   </div>
 </template>
 
 <script setup>
-const fff = this.$store.getters.HEADER;
+// import { useStore } from 'vuex';
+// const store = useStore();
+// const fff = store.getters.HEADER;
+import Application from './Application.vue';
+
 </script>
